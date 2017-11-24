@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,OAAQ,CACJ,KAAK,CALC,GAAI,CAMV,MAAM,CAAE,aAA6B,CACrC,OAAO,CANG,IAAI",
+"sources": ["ops_styles.scss"],
+"names": [],
+"file": "styles.css"
+}

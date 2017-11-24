@@ -1,0 +1,50 @@
+/*
+ * SASS mixins are declared with the @mixin directive
+ * and used with the @include directive
+ */
+header {
+  color: #FF9900;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+footer {
+  color: #3264AF;
+  border-radius: 10px;
+  border: 1px solid green;
+  padding: 10px; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+  body p {
+    font-family: Times; }
+  body p#mypara {
+    font-family: "Courier New"; }
+
+.mypara {
+  color: #404040;
+  border: 1px solid #404040;
+  padding: 10px; }
+  .mypara:hover {
+    color: red; }
+
+/*
+ * SASS Operators example
+ */
+.mypara {
+  color: #f00;
+  border: 4px solid #f00;
+  padding: 10px; }
+
+h1, h2 {
+  color: navy; }
+
+.mypara {
+  font-size: 18px;
+  border: 1px solid navy;
+  padding: 15px 15px 15px 15px; }
+
+.mypara:after {
+  content: " with an appended string"; }
+
+/*# sourceMappingURL=allstyle.css.map */
